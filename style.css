@@ -9,15 +9,23 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 50px;
     line-height: 50px;
-    background-color: rgb(47, 153, 120);
+    background-color:darkgoldenrod
 }
 
 header * {
     display: inline;
-    height: 50px;
+    height: px;
 }
+
+.h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+]
 
 header ul {
     padding: 0;
@@ -28,19 +36,38 @@ header li {
 }
 
 section {
-    height: 100vh;
-    border: 1px solid black;
+    height: 60vh;
+    border: 1px solid rgb(0, 0, 0);
     display: flex;
+    background-color: darkgoldenrod;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
     text-align: center;
 }
 
 #hero .profile-img {
     width: 500px;
+    border-radius: 100%;
+    
+}
+
+#hero {
+    background-color: bisque;
+
+}
+
+#contact {
+    background-color: bisque;
+}
+
+
+.about {
+    background-color: green;
 }
 
 footer {
     text-align: center;
     padding: 50px;
+    background-color: goldenrod;
 }
