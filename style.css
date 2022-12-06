@@ -1,7 +1,8 @@
 body {
     margin: 0;
     margin-top: 50px;
-    font-family: sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
+    background-color: rgb(238, 211, 123);
 }
 
 header * {
@@ -21,11 +22,11 @@ header * {
 }
 
 header ul {
-    padding: 0;
+    padding: 9px;
 }
 
 header li {
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 section {
@@ -35,7 +36,6 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
@@ -47,21 +47,19 @@ section {
     border-radius: 50%;
 }
 
-footer {
-    text-align: center;
-    padding: 50px;
-}
 
 #hero h1 {
-    font-size: 3em;
+    font-size: 50px;
 }
 
 section h2 {
-    font-size: 2.5em;
+    font-size:40px;
 }
 
 section h3 {
-    font-size: 1.5em;
+    font-size:25px;
+    font-weight: 100;
+
 }
 
 header a {
@@ -80,4 +78,9 @@ header a {
 
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.squarespace-cdn.com/content/v1/5ba162cd89c1721789b9b82b/1623965113711-C2EN0X9G4NKOONT1TPWQ/Tin_Mans_Trip_36_x_36.jpg');
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
 }
