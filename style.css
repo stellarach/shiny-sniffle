@@ -18,11 +18,12 @@ header {
 
 header * {
     display: inline;
-    height: 50px;
+    height: 150px;
+    border-radius: 5%;
 }
 
 header ul {
-    padding: 9px;
+    padding: 360px;
 }
 
 header li {
@@ -42,13 +43,14 @@ section {
     background-attachment: fixed; 
 }
 
-#hero .profile-img {
-    width: 300px;
+#pictureofme .profile-img {
+    width: 600px;
     border-radius: 50%;
+    
 }
 
 
-#hero h1 {
+#pictureofme h1 {
     font-size: 50px;
 }
 
