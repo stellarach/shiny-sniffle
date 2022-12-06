@@ -13,7 +13,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 50px;
     line-height: 50px;
-    background-color:darkgoldenrod
+    background-color:rgb(238, 237, 235)
 }
 
 header * {
@@ -25,7 +25,6 @@ header * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
     
-]
 
 header ul {
     padding: 0;
@@ -37,9 +36,8 @@ header li {
 
 section {
     height: 60vh;
-    border: 1px solid rgb(0, 0, 0);
+    border: 6px solid rgb(139, 188, 159);
     display: flex;
-    background-color: darkgoldenrod;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
@@ -58,16 +56,16 @@ section {
 }
 
 #contact {
-    background-color: bisque;
+    background-color: rgb(203, 218, 200);
 }
 
 
 .about {
-    background-color: green;
+    background-color: bisque;
 }
 
 footer {
     text-align: center;
     padding: 50px;
-    background-color: goldenrod;
+    background-color: rgb(230, 219, 190);
 }
